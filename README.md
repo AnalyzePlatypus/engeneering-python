@@ -16,23 +16,20 @@ The arguments for this program are:
 `light_calc.py` is a program to calculate the amount of light fixtures necessary for a given area,
 given the necessary lux and the given lumens that each light gives off.
 
-The arguments for the program are given via the command line.
 > Note that all lengths are given in meters.
-
-The command line arguments a and b are the two sides of the area resulting in the room_size(in meters!)
 
 ```bash
 light_calc.py --lux --area --lum [-k,--Fu] 
 ```
 
 * `--lux` lux amount 
-* `--area` Room area in square meters> 
+* `--area` Room area in square meters
 * `--lum` The lumens given off by each fixture
 * `-k` (Optional) - See below
 * `--Fu` (Optional) - See below
 
 
-#### Formula
+### Formula
 
 The formula used is by Dimah Budensky in his book on power and lighting:
 
